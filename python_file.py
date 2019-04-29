@@ -17,9 +17,9 @@ with open('passwords.csv') as password_file:
 # open a txt file in write mode
 with open('compromised_users.txt', 'w') as compromised_user_file:
     # iterate over each user
-    for user in compromised_user_file:
+    for compromised_user in compromised_users:
         # write the username to compromised_user_file
-        compromised_user_file.write(user)
+        compromised_user_file.write(compromised_user)
 
 # open a new JSON file
 with open('boss_message.json', 'w') as boss_message:
