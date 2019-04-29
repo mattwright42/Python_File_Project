@@ -47,5 +47,6 @@ with open('new_passwords.csv', 'w') as new_passwords_obj:
  __ _  _  _  __    __
 (  ( \/ )( \(  )  (  )
 /    /) \/ (/ (_/\/ (_/\
-\_)__)\____/\____/\____/ """
+\_)__)\____/\____/\____/ 
+"""
     new_passwords_obj.write(slash_null_sig)
